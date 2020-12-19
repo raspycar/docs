@@ -32,7 +32,8 @@ Obviously, you need to replace `NETWORK-NAME` and `NETWORK-PASSWORD` with your w
 
 - Insert the SD card in your Raspberry Pi and power it up.
 - Identify your Raspberry PI IP address on your router once is powered up.
-- Connect via SSH to its IP address and start `raspi-config`, once there:
+- Connect via SSH to its IP address `ssh `pi@<ip address>` (password is `raspberry` by default)
+- Run `raspi-config`: `sudo raspi-config`
   - Change `pi` user password (recommended)
   - Under `Interfacing options`:
     - Enable `Camera`
