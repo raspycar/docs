@@ -38,3 +38,19 @@ Obviously, you need to replace `NETWORK-NAME` and `NETWORK-PASSWORD` with your w
   - Under `Interfacing options`:
     - Enable `Camera`
     - Enable `SSH`
+
+
+## Motor pins setups
+
+_Image from (GPIOZero documentation)[https://gpiozero.readthedocs.io/en/stable/recipes.html#pin-numbering]_
+
+![Pins layout](https://gpiozero.readthedocs.io/en/stable/_images/pin_layout.svg)
+
+| Motors | Raspberry Pi |
+|--------|--------------|
+| 5V+ | #2 |
+| GND | #6 |
+| IN1 | #12 (GPIO18) |
+| IN2 | #13 (GPIO27) |
+| IN3 | #18 (GPIO24) |
+| IN4 | #19 (GPIO10) |
