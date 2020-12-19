@@ -38,6 +38,7 @@ Obviously, you need to replace `NETWORK-NAME` and `NETWORK-PASSWORD` with your w
   - Under `Interfacing options`:
     - Enable `Camera`
     - Enable `SSH`
+    - Enable `SPI`
 
 
 ## Motor pins setups
