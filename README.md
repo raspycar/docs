@@ -61,4 +61,5 @@ _Image from (GPIOZero documentation)[https://gpiozero.readthedocs.io/en/stable/r
 ## Setup controller app
 
 - Clone the `setup` repository: `git clone git@github.com:raspycar/setup.git`
-- Install `ansible`: `pip3 install ansible`
+- Change current directory to the `setup` dir
+- Install `ansible`: `pip install ansible`
