@@ -43,6 +43,8 @@ Obviously, you need to replace `NETWORK-NAME` and `NETWORK-PASSWORD` with your w
 
 ## Motor pins setups
 
+You now need to wire the motors shield to the Raspberry Pi.
+
 _Image from (GPIOZero documentation)[https://gpiozero.readthedocs.io/en/stable/recipes.html#pin-numbering]_
 
 ![Pins layout](https://gpiozero.readthedocs.io/en/stable/_images/pin_layout.svg)
@@ -55,3 +57,8 @@ _Image from (GPIOZero documentation)[https://gpiozero.readthedocs.io/en/stable/r
 | IN2 | #13 (GPIO27) |
 | IN3 | #18 (GPIO24) |
 | IN4 | #19 (GPIO10) |
+
+## Setup controller app
+
+- Clone the `setup` repository: `git clone git@github.com:raspycar/setup.git`
+- Install `ansible`: `pip3 install ansible`
